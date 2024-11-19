@@ -14,7 +14,7 @@ public class Collatz {
 			}
 			
 			while (true) {
-				count ++;
+				
 				if (collatz == 1) {
                     if (verbose) {
                         System.out.print("4 2 1 "); 
@@ -33,6 +33,7 @@ public class Collatz {
 				if (verbose){
 					System.out.print(collatz + " ");
 				}
+				count ++;
 
 				if (collatz == 1) {
                     break; 
